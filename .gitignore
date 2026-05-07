@@ -1,0 +1,26 @@
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+
+# Runtime uploads and sessions
+uploads/project_docs/*
+!uploads/project_docs/.gitkeep
+uploads/sessions/*
+!uploads/sessions/.gitkeep
+
+# XAMPP default dashboard, not part of this app
+/dashboard/
